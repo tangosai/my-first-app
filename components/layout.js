@@ -5,7 +5,7 @@ import Header from "./header";
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="px-2 max-w-screen-xl mx-auto">
+      <div>
         <Header />
         <div>{children}</div>
         <Footer />
